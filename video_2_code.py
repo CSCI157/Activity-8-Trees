@@ -6,6 +6,9 @@ class Node:
 
     def __str__(self):
         return str(self.data)
+    
+    def __eq__(self):
+        return self.data == other.data
 
 
 class Tree:
